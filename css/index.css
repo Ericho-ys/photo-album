@@ -1,0 +1,32 @@
+body{
+	background: #000;
+}
+ul, li{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.mid{
+	position: absolute;
+	left:0px;
+	right: 0px;
+	top:0px;
+	bottom:0px;
+	margin: auto;
+}
+#gallery {
+	width: 980px;
+	height: 500px;
+}
+#gallery li {
+	position: absolute;
+	background: #FFF;
+	transition: transform .8s ease-in;
+	/*transform: rotate(-30deg) translate(10px, 20px);*/
+}
+#gallery li div {
+	width: 100%;
+	height: 100%;
+	transition: transform .3s ease-in .6s;
+	/*transform: scale(0.9);*/
+}
